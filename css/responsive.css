@@ -1,0 +1,107 @@
+/* Small devices */
+@media only screen and (max-width: 500px){
+.card-section{
+  width: 90%;
+}
+  .form-contact{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .col-xs-3{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  }
+  #multi-item-example img{
+   height: 200px;
+  }
+  .carousel-inner .item .food-img{
+    height: 270px;
+  }
+}
+@media only screen and (max-width: 688px){
+  .col-xs-3{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  }
+  .card-section{
+    width: 80%;
+  }
+  .icon img{
+    width: 20%;
+  }
+
+}
+/* Small devices and Tablets */
+@media only screen and (min-width: 688px){
+  .navbar-default {
+    background-color: #444 !important;
+    border-color: #e6e6e6;
+}
+  #carimages .carousel-inner .item img{
+  width: 100%;
+}
+.col-xs-3{
+position: relative;
+min-height: 1px;
+padding-right: 5px;
+padding-left: 5px;
+}
+#multi-item-example img{
+ height: 250px;
+}
+.carousel-inner .item .food-img{
+  height: 270px;
+}
+.card-section{
+  width: 80%;
+}
+ .form-contact{
+  width: 80%;
+}
+.center{
+  margin-left: auto;
+}
+.text-delivery{
+  margin-left: auto;
+}
+  .icon img{
+    width: 20%;
+  }
+}
+@media only screen and (min-width: 768px){
+  .icon img{
+    width: 40%;
+  }
+}
+
+/* Large devices ,wide screen */
+@media only screen and (min-width: 992px){
+.dinning-buttons button {
+  margin: 1em;
+}
+  #carimages  .carousel-inner .item img{
+      width: 100%;
+    }
+    #multi-item-example img{
+     height: 270px;
+    }
+    .form-contact{
+     width: 50%;
+   }
+
+}
+@media only screen and (max-width: 887px){
+  .nav{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 796px){
+  .nav{
+    font-size: 9px;
+  }
+}

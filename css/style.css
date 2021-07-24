@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Varela', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4287143;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+}
+body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #6cc39e;
+}
+.nav{
+  font-size: 12px;
+}
+/*---------------Navigation----------*/
+.navbar-fixed-top{
+  background-color: #fff;
+}
+.navbar-fixed-top{
+  margin-top:0px;
+  opacity:1;
+  background-color:rgb(255,255,255);
+  border-color:rgb(68,68,68);
+}
+.navbar-brand{
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand img{
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.logo{
+  height: 60px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+.navbar-default{
+  background-color: transparent;
+  z-index: 110;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a{
+  background-color: #fff;
+  color: #444;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav >li>a:hover{
+  color: #fff;
+}
+.navbar-default .navbar-nav >li>a:focus{
+  color: #FFF;
+}
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus{
+  background-color: transparent;
+  color: #fff;
+}
+
+
+/* ...........ABOUT.......... */
+#ABOUT .item{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 500px;
+}
+#ABOUT{
+  background-color:#000;
+}
+.about-info h2{
+  color: #6cc39e;
+  margin-top: 60PX;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-top: initial;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+.about-info p{
+  color: #fff;
+  padding-top: initial;
+  text-transform: none;
+  text-align: justify;
+  font-size: 13px;
+  margin-left: auto;
+}
+.about-info br{
+  line-height: 5px;
+}
+
+.container-images{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+}
+.container-images .card{
+  position: relative;
+  width: 220px;
+  height: 300px;
+  margin: 15px;
+  overflow: hidden;
+}
+.container-images .card .imgBx,
+.container-images .card .contentBx
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container-images .card .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-images .card .contentBx::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6cc39e;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: right;
+  transition-delay: 0.5s;
+}
+.container-images .card:hover .contentBx::before
+{
+  transform: scaleX(1);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: left;
+  transition-delay: 0s;
+}
+.container-images .card .contentBx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container-images .card .contentBx .content{
+  position: relative;
+  margin: 2px 12px;
+  z-index: 1;
+  transition: 0.5s;
+  transform: translateX(-300px);
+  transition-delay: 0s;
+}
+.container-images .card:hover .contentBx .content{
+  transform: translateX(0px);
+  transition-delay: 0.5s;
+}
+.container-images .card .contentBx .content h3{
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: bolder;
+}
+.container-images .card .contentBx .content p{
+  font-size: 1em;
+  line-height: 1.4em;
+  font-weight: 300;
+  color: white;
+}
+
+/* .............IMAGES............. */
+#IMAGES .item{
+  height: 300px;
+}
+#IMAGES{
+  background-color:#000;
+}
+.image-text h3{
+  font-weight: bold;
+  margin-top: 50px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.image-text p{
+  color: aliceblue;
+  text-align: left;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.images img{
+  width: 100%;
+  padding-top: 5px;
+  height: 250px;
+}
+.image-text{
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+/* ............NEWS..........*/
+#NEWS{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/top-view-tasty-cooked-potatoes-with-greens-different-seasonings-dark-surface-dinner-meal-dish-cips-potato-cooking.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 60% 40%;
+}
+.news-text hr{
+  margin-top: 50px;
+}
+.news-text h3{
+  text-align: center;
+  color: white;
+
+}
+.news-text p{
+  text-align: center;
+  color: white;
+}
+.news-text-content h2{
+  text-align: center;
+  color: #6cc39e;
+  text-transform: capitalize;
+}
+.news-text-content p{
+  padding-top: 10px;
+  color: #fcfeff;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.news-data .card-section{
+  background-color:  rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+  .card-section .col-sm-5{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.news-data .card-section img{
+  height:270px;
+  width: 100%;
+}
+.news-data h3{
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.news-data p{
+  text-align: left;
+  color: white;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+
+/* .......SERVICES........ */
+#SERVICES{
+  background-image: url("../images/image61.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+}
+.text-service h4{
+  padding-top: 20px;
+  text-align: center;
+  color: #6cc39e;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.text-service h1{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 33px;
+}
+.icon img{
+  width: 30%;
+}
+.icon h3{
+  color: white;
+
+  font-weight: bold;
+  text-align: center;
+}
+.icon p{
+  font-size: medium;
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+}
+/*.........Private-Dining..........  */
+#PRIVATE-DINING{
+  background-color:#000;
+  padding-top: 20px;
+}
+#PRIVATE-DINING .dinning-section .dinning-image{
+  width: 100%;
+  height:280px;
+}
+.dinning-buttons{
+  margin-top: 3em;
+  margin-bottom: 2em;
+
+}
+.btn-custom{
+  border-radius: 0;
+  padding: 12px;
+  background: #6cc39e;
+  color: #fff;
+}
+.btn-outline-custom{
+	border-radius: 0;
+	padding: 14px;
+	background: transparent;
+	border: 1.2px solid #6cc39e;
+	color: #6cc39e;
+	font-size: 12px;
+}
+.btn-outline-custom:hover{
+  background: #6cc39e;
+  color: #fff;
+}
+.dinning-buttons .btn{
+  margin-right: 5px;
+}
+.dinning-section  p{
+  font-size: 13px;
+}
+.private-dining-desc hr{
+  text-align: center;
+  margin-top: 6em;
+
+}
+.private-dining-desc{
+    margin-left: 5em;
+    margin-bottom: 3em;
+}
+.private-dining h3{
+
+  font-weight: bold;
+  text-align: left;
+  margin-left: 0px;
+}
+.private-dining p{
+  text-align: left;
+  margin-left: 0px;
+  color: white;
+}
+.private-dining a{
+  color: white;
+}
+.text-private-dining h1{
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+}
+.text-private-dining {
+  margin-top: 30px;
+}
+.text-private-dining p{
+  text-align: left;
+}
+.text-private-dining a{
+  background-color: transparent;
+  color: white;
+}
+.btn-private-dining{
+    padding-left: 455px;
+    padding-top: 20px;
+}
+.btn-dining{
+  padding: 8px 20px;
+  font-size: 12px;
+  line-height: 25px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #444;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+
+}
+
+/*.........WEDDINGS........*/
+#WEDDINGS{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.64)), url("../images/image88.jpg");
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/image88.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+  background-color:#444;
+ }
+.text-weddings hr{
+  margin-top: 2em;
+  text-align: center;
+}
+.text-weddings h3{
+  color: #6cc39e;
+  text-align: center;
+  margin: auto;
+}
+.text-weddings p{
+  color: white;
+  text-align: center;
+  margin:auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.text-weddings a{
+  color: white;
+}
+.weddings-Description h2{
+  margin-top: 70px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #6cc39e;
+  font-weight: bold;
+  margin-left: auto;
+}
+.weddings-Description p{
+  margin-left: auto;
+  text-align: left;
+  padding-top: 20px;
+  color: white;
+}
+.text-weddings-para p{
+  padding-top: 10px;
+}
+.text-weddings-para a{
+  color: white;
+  text-transform: uppercase;
+}
+.text-weddings-des{
+  padding-top: 20px;
+  margin-bottom: 2em;
+}
+.text-weddings-des h5{
+  color: #6cc39e;
+  text-transform: uppercase;
+}
+.text-weddings-des p{
+  color: white;
+  text-align: left;
+}
+
+
+/*----------Counter-----------*/
+.counter{
+  background-image: url("../images/image69.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+}
+.counter-overlay{
+  padding-top: 10px;
+  padding-bottom: 80px;
+  background: rgba(0, 0, 0, .4);
+}
+.counter-item h1{
+  color: #D7DADB;
+}
+.counter-item hr{
+  padding-bottom: 50px;
+  text-align: center;
+  color: #fff;
+  width: 15%;
+}
+.counter-item h2{
+  color: #D7DADB;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+.counter-item p{
+  color: #D7DADB;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+/*.........DELIVERY........... */
+#DELIVERY{
+  background-color:#000;
+
+}
+.text-delivery
+{
+   /*! padding-left: 0px; */
+   /*! padding-right: 0px; */
+  /*! margin-left: 100px; */
+}
+.text-delivery h2{
+  margin-top: 30px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text-delivery h4{
+  text-align: left;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 0px;
+  padding-top: 20px;
+}
+.text-delivery p{
+  text-align: left;
+  margin-left: 0px;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 1em;
+}
+.text-delivery h3{
+  margin-left: 0px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.text-delivery-hr hr{
+  width: 10%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.text-format h2{
+   text-transform: capitalize;
+   color: #6cc39e;
+}
+/* ..........CONTACT............. */
+#CONTACT{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/gold-cutlery-set-black-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 75% 25%;
+  width: 100%;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+/*   width: 40%; */
+}
+.text-contact-des h2{
+  color: #6cc39e;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2em;
+  text-transform: capitalize;
+}
+.text-contact-des p{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+.form-contact{
+  background: transparent;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 1em;
+  color: white;
+  resize: none;
+  font-family:inherit;
+  border-radius: 0px;
+  padding: 0.5em;
+}
+ .btn-contact{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+/*-----------Footer-----------*/
+.footer{
+  background-color: #000;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+.text-middle-contact{
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.text-contact h4{
+  text-transform: uppercase;
+  text-align: left;
+}
+.text-contact p{
+  text-align: left;
+  color: white;
+  margin-left: 0px;
+}
+
+.text-contact-hr h4{
+  text-align: center;
+  text-transform: uppercase;
+}
+.social-icons{
+  padding-top: 1em;
+}
+.social-icons ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.social-icons ul li{
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+}
+.social-icons ul li a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #9d9d9d;
+  border-radius: 3px;
+  width: 45px;
+  height: 45px;
+  line-height: 49px;
+  color: #9d9d9d;
+}
+.social-icons ul li a:hover{
+  background-color: #6cc39e;
+  border: 1px solid #6cc39e;
+  color: #fff;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-ransition: all 1s;
+}
+.social-icons ul li a i{
+  font-size: 20px;
+}
+.text-bottom-contact p{
+  color: white;
+  margin-top: 2em;
+}
+#copyright{
+  width: 60%;
+}
+#copyright p{
+  color: white;
+  font-weight: 600;
+  font-size: 15PX;
+  text-transform: uppercase;
+}
+#copyright p a{
+  text-decoration: none;
+  color: #blue;
+}
+.copyright {
+  margin-top: 3em;
+  margin-left: 0px;
+}
+.text-bottom-contact p a{
+  color: white;
+}
+.custom-title{
+  color :#6cc39e;
+}
+#speny-navbar-collapse-1{
+  margin: 0 15px;
+}
+.btn-contact button{
+  width: 200px;
+}
+.service-icon i{
+  color: #fff;
+  font-size: 55px;
+}
+#SERVICES .text-service{
+  margin-bottom: 50px;
+}
+.icon-group-services{
+  margin-bottom: 30px;
+}
+.card-section .description{
+  margin: 2px 2px 20px 2px;
+}
+#IMAGES .image-text{
+  margin-bottom: 30px;
+}
+.about-info h2{
+  text-align: center;
+}
+
+.about-info {
+  margin-bottom: 30px;
+}
+
+#IMAGES .image-text h2{
+  text-align: center;
+}
+.carousel-xs-section .food-img img{
+  width: 60%;
+  margin: auto;
+
+}

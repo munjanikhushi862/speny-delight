@@ -1,0 +1,220 @@
+FOR BOOTSTRAP:-
+
+https://getbootstrap.com/docs/5.0/getting-started/download/
+
+http://demo.dhtheme.com/?theme=Organic
+-------------------------------------
+section:-
+1.about
+2.testimonial
+3.images
+4.news
+5.press
+6.private dining:
+7.weddings
+8.delivery
+9.contact
+________________________
+About :
+
+{restaurant name +background image}
+________________
+Reservations
+
+Book a table online.
+_____________
+Connecting people to place through contemporary Canadian cuisine, Canoe crafts inspired dishes reflective of our country’s diverse landscape, history and culture. Our chefs work closely with farmers and suppliers to source the finest ingredients from across the nation.
+
+With over 20 years of culinary history, Canoe continues to challenge creative boundaries in the spirit of celebrating Canada and its distinct provinces.
+
+{picture}
+___________________________
+
+testimonial:
+
+District Executive Chef – John Horne
+
+Since being appointed Chef of Canoe in 2010, John Horne has incorporated his passion for refined flavours, seasonal ingredients and explosive presentation with his love of Canadian cuisine.
+
+Chef de Cuisine – Ron McKinlay
+
+Recently landed in Toronto, Chef Ron McKinlay brings over 10 years of international cooking experience in renowned restaurants across the U.K., Australia and the Middle East.
+
+
+_________________________________
+
+images:
+
+some image for dishes:
+
+stay connected
+
+Share your experience at Canoe with us on Instagram or Facebook.
+->logo for instagram and facebook
+________________________________________________
+
+news:
+
+spany 2020-> image+text
+We may have missed our plaid-adorned dining room this year, but in the spirit of keeping things wild, our chef team prepared a Canoe Wild inspired takeout box.
+_____________________________
+event recap: spany in the county:image+text
+
+On Sunday, September 27, our team was honoured to take part in a harvest celebration of Canadian cuisine—connecting people to the great tastes, terroir, and spirit of Prince Edward County.
+_______________________________
+Recap: Auberge avec spany:image+text
+
+For eight incredible weeks, we teamed up with our sister restaurant, Auberge du Pommier, to bring you a special at-home dining experience.
+________________________________
+spain's Best Farm to Table Restaurant:image+text
+
+We are honoured to be selected by Canada's 100 Best magazine as the country's best farm to table restaurant.
+__________________________________
+Three Essential Canoe Rye Cocktails
+
+Canoe partnered with Dillon’s to craft an iconic rye that proudly honours Canada’s history as one of the world’s top whisky producers. Here, three recipes for classic whisky cocktails that never go out of style.
+_______________________________________________________________
+
+Press:
+
+For media inquires, please email s@restaurant.com
+
+{small-dish-on-table image}
+spany's 100 Best
+Best Farm to Table Restaurant 2020
+
+{food-makeover image}
+Toronto Life
+Inside the new Canoe, which just got a top-to-bottom makeover for its 25th anniversary
+
+{cook-master image}
+National Post
+Behind the scenes at the reopening of Canoe, a Bay Street institution
+
+{resto image}
+Eat North
+Toronto's Canoe unveils new design to celebrate its 25th anniversary
+
+{delecious image}
+Post City
+Canoe Restaurant has a new nostalgic tasting menu in Toronto
+
+{ocation-resto image}
+Style Democracy
+8 of the Best Special Occasion Restaurants in Toronto
+
+{drink-dark image}
+Flare
+The Best Unfussy Fine Dining Across Canada for Your Next Date Night
+
+{light-food image}
+Food & Wine
+10 of Canada’s Best—and Most Uniquely Canadian—Restaurants
+
+{wine image}
+Wine Enthusiast
+Top 10 Wine Restaurants of Canada
+
+{function image}
+WeddingWire Canada
+10 Stunning Toronto Restaurants Worthy of Your Wedding
+______________________________________________________________
+
+private dining:
+
+breathtaking views at your next event
+
+Canoe has two exclusive private dining rooms accommodating groups up to 100, and full restaurant buyouts on weekends for up to 250 guests, ideal for events of all types — from corporate dinners to special occasions. These private upscale rooms are perfect for breakfast meetings, product launches, exclusive dinners, intimate celebrations and weddings.
+
+To ensure you have a safe and stress-free event, we’ve implemented the following measures as advised by our health and government experts. Click here for details.
+---------- 3 BTNS FOR -----------
+event package-------wedding package-------learn more
+
+ {image of dining table}
+___________________________________________________________
+
+weddings:
+-->in right side
+
+wedding venue with a view in downtown Toronto
+
+Take your wedding to a level you never imagined possible at Canoe. Located 54 floors above the city, Canoe’s world-class cuisine and exceptional service make it the wedding venue of your dreams. Featuring two private spaces and a large dining room, Canoe is perfectly equipped to host both your wedding ceremony and reception—with a dedicated events team to help along every step of the way.
+.........................
+CAPACITIES
+entire restaurant
+
+up to 140 seated, 250 reception
+available for breakfast, lunch or dinner
+Saturdays & Sundays
+private dining rooms
+
+West: 24 seated, 40 reception
+East: 40 seated, 60 reception
+East & West: 60 seated, 100 reception
+
+
+-->inleft side
+Book Your Wedding
+
+Call an Event Specialist at (416) 364-1211, or email us at events@oliverbonacini.com for more information.
+
+{btns for }
+wedding package
+learn more
+
+-->{some images of weddings in resto.}
+_________________________________________________
+
+delivery:
+
+taste spany at home
+
+DELIVERY NOW AVAILABLE
+
+Built with the same love, care and passion behind our in-restaurant dining, our takeout offerings can now be pre-ordered online. While we miss serving you, trust us when we say that it’s still the same Canoe — just different packaging. Browse this week’s offerings below, and place your pre-order for delivery to your door.
+CELLAR 54
+
+Whether you’re looking to enhance your next special occasion dinner at home or stocking your cellar for a rainy day, we invite you to browse our selection of rare and collectible vintages from around the world—thoughtfully curated by Canoe’s Senior Sommelier Billy Woon, and now available for delivery.
+
+{btn for -pre-order online}
+________________________________________________________
+
+contact:
+
+where to find us
+
+{devide 3 section}
+...............
+ 1.  Connect
+
+    Instagram
+    Facebook
+2.address
+
+66 Wellington St. W,
+TD Bank Tower, 54th Floor,
+Toronto, ON, Canada M5K 1H6
+phone
+
+(416) 364-0054
+
+Please note: While we are closed for indoor dining, our phone lines will not be monitored. Please contact us through our contact form below, and we will get back to you as soon as possible. Thank you!
+donations
+
+Please email your donation or sponsorship requests to donations@oliverbonacini.com a minimum of six weeks prior to your event date.
+
+3.In compliance with provincial legislation, we are temporarily closed for dining. Order our Taste Canoe at Home menu for delivery in Toronto, and follow us on Instagram at @canoerestaurant and stay tuned updates.
+...................
+Get in touch
+
+To book and confirm your reservations immediately, we encourage you to use our online booking system.
+
+{table block}
+full name:
+phone number:
+email:
+comments:
+submit:
+____________________________________________
+right side:-logo of instagram and facebook:
+left side:-copyright c2021 freny & spevior
